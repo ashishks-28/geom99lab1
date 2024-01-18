@@ -1,1 +1,573 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJa7EyH5n9mzkR54uXCYm6zJM",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJIyhtfpMHmjkRKyJ_sYP2yF8",
+         "types" : 
+         [
+            "locality",
+            "political"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 26.9267396,
+               "lng" : 82.19979049999999
+            },
+            "southwest" : 
+            {
+               "lat" : 26.7559915,
+               "lng" : 80.9461256
+            }
+         },
+         "copyrights" : "Map data ©2024",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "136 km",
+                  "value" : 135924
+               },
+               "duration" : 
+               {
+                  "text" : "2 hours 40 mins",
+                  "value" : 9625
+               },
+               "end_address" : "Ayodhya, Uttar Pradesh, India",
+               "end_location" : 
+               {
+                  "lat" : 26.7921663,
+                  "lng" : 82.19979049999999
+               },
+               "start_address" : "Lucknow, Uttar Pradesh, India",
+               "start_location" : 
+               {
+                  "lat" : 26.8466915,
+                  "lng" : 80.9461256
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8465099,
+                        "lng" : 80.946254
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eLucknow Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eMahatma Gandhi Marg\u003c/b\u003e toward \u003cb\u003eMahatma Gandhi Marg\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eVidhan Sabha Marg\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "ynzbDix`mN[EXSd@@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8466915,
+                        "lng" : 80.9461256
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 283
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.84477,
+                        "lng" : 80.9483116
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBR Ambedkar Marg\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePark Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "umzbDay`mNTe@BEFGLMNQPWd@q@PWh@y@p@aAt@q@LILKHGJKLM"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8465099,
+                        "lng" : 80.946254
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 458
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 75
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8422039,
+                        "lng" : 80.9519179
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eBR Ambedkar Marg\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePark Rd\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "ybzbD}eamN`AyA|@oANUDK\\k@Zc@DIdAaBn@aAtAsB@ARc@BGHMFKDIXc@BCHMDK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.84477,
+                        "lng" : 80.9483116
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.7 km",
+                        "value" : 1674
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 145
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8506501,
+                        "lng" : 80.96520199999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eLohia Path\u003c/b\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "wrybDo|amN?E?G@E@CBCGyAIu@?COw@]uA_BsHw@oDe@iBAGUu@Wq@e@cAi@cAk@cAKSe@u@e@q@UWSUYW_@Y{DuC[SOMIEYUyB}AiA{@g@c@c@e@e@i@oDuEmAeBg@w@[e@Ua@Wk@[{@[s@Mg@IUIQEIII_@]"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8422039,
+                        "lng" : 80.9519179
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.8 km",
+                        "value" : 810
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 89
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8550559,
+                        "lng" : 80.97145789999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003eLohia Path\u003c/b\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "qg{bDoodmNI?IAIAGCIEGEEGGG?CAAACAA?CAC?CAAAG?G?G?G@G@G@GBGc@cAiAsBa@k@k@_AsCiECCsAuBQWOWg@u@kBwC{@uAIKIM]i@k@y@MOMKUO"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8506501,
+                        "lng" : 80.96520199999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.4 km",
+                        "value" : 1446
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 144
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8587529,
+                        "lng" : 80.98456729999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003eLohia Path\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Magnum Plaza (on the left in 500m)\u003c/div\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "cc|bDsvemNK@UBO?S?SAK?MAK?M?KAKAMCKAKCIOEMEKCQAO}@qFKe@CUq@uDe@}CGm@Go@Em@AIi@qJOkCEq@GiAMoAOoAMqAeCyP?AaAeH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8550559,
+                        "lng" : 80.97145789999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 257
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.859341,
+                        "lng" : 80.9870253
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003eLohia Path\u003c/b\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "ez|bDqhhmNA?A?AAAAA??AA?AA?AAA?AAA?AAA?C?AAE@G@E@E_ByKE]"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8587529,
+                        "lng" : 80.98456729999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.0 km",
+                        "value" : 2035
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 199
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8730002,
+                        "lng" : 80.9957352
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eLohia Path\u003c/b\u003e",
+                     "maneuver" : "keep-right",
+                     "polyline" : 
+                     {
+                        "points" : "{}|bD}whmNEm@SqACUs@qEYwBCOIc@?CGW[cBOo@Wy@{AgDqBcFKYMYYk@e@y@o@_Am@w@_@a@_@]mB{Ai@[a@Uw@]MI{@Yi@Qs@O}@Ok@I[Ci@CuFAyDAY?kC@W?g@@oA?kDAeB@sDAiA?gA?M?Y?E@I?WBGBC?C@YHC@YJ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.859341,
+                        "lng" : 80.9870253
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.5 km",
+                        "value" : 476
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 93
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8732433,
+                        "lng" : 80.99972609999999
+                     },
+                     "html_instructions" : "At \u003cb\u003ePolytechnic Chauraha\u003c/b\u003e, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eFaizabad Rd\u003c/b\u003e",
+                     "maneuver" : "roundabout-left",
+                     "polyline" : 
+                     {
+                        "points" : "gs_cDknjmNCNCFCDCDEBCBEBE@G@C?A?CACCEAACCEACACCGAE?G?I?C?E@G@GDODK@CD_@@S@S?C?E@U?A?YA_AOyFA{CA}@@O@MBKBIFGDI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8730002,
+                        "lng" : 80.9957352
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.2 km",
+                        "value" : 1214
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 124
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8737335,
+                        "lng" : 81.0119467
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNH 30\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Sushma Hospital (on the left)\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "wt_cDigkmN?e@AU?e@Aq@?i@IwIAuAWwP?qAE{@CyCCgAE_AAYIuF?GAi@CeAGkDEqBEqC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8732433,
+                        "lng" : 80.99972609999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.3 km",
+                        "value" : 252
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.8738579,
+                        "lng" : 81.01448590000001
+                     },
+                     "html_instructions" : "Continue straight to stay on \u003cb\u003eNH 30\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : 
+                     {
+                        "points" : "yw_cDusmmNCoA?AGkDEyAAcAA[CcA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8737335,
+                        "lng" : 81.0119467
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "122 km",
+                        "value" : 122112
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 hours 11 mins",
+                        "value" : 7860
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.7699768,
+                        "lng" : 82.17883909999999
+                     },
+                     "html_instructions" : "At Bajrangbali Temple,rama Tower, continue onto \u003cb\u003eNH 27\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Central Bank of India (on the left in 2.6 km)\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "sx_cDqcnmN?YA_@AYEmBE_CEoDEwACw@C{@CuCKqDMuDASQiE[eI?KQ}DMuCGiAEm@?CGq@Gs@Km@AEESMu@WcA]yAsBwHI]]gAi@uAc@gAq@qAYk@g@{@Wk@MUk@oAcAuBYu@c@eAcBuEa@gACKc@eAk@yAKUM[s@qBIUAAkAeDUk@gBaFISi@uA?AWq@Uo@EIOc@_@gAQc@Oa@IUk@{A_@aAYu@Qc@u@qB_AcCk@uAeBmEiCaHiAwCi@}AOa@a@aAaAaCu@kBq@mBi@uAi@{Ag@{AMc@a@uA_@qAK[g@gB}AgFwBqH]mAUo@CMIUg@cBeAmDYcAEO]mAsAqE]kAUaAMm@Mm@Mu@Kk@Ig@UwA]yBc@}Cc@yCIg@]sBGg@[}B_@yCAEQkAU{A_@cCSoAKs@m@}D?EG_@k@_EWkB]eCE[e@iDEWGa@c@}CQsAIg@U{AUcBAMsC}QIq@_@cCC]CM_@eBYwBKc@]_CaAaHo@kEc@yCEYSqAk@cEGe@AEOgAQmAGa@G_@U{AQoA?AcAuHOaAAKGg@}@qGs@aFuAuJk@gEOaAqA}IqAqIM{@k@aEiAaIg@qDKs@eA_HeAmHa@gDiAiKq@cGyAqLKu@_@sD{CeZk@kFEg@KaAMcAE]]eDg@oFGq@AMg@uEG}@?KCs@AaA@]@[JwB@i@Bg@DcAFgA?GF_A@]HaCVoG`AaT@Q?GP_FJgCd@cNf@mMJkEPiGLwE@g@@i@@g@DiA@i@?IBq@DqA@g@Bg@PqFPwDh@yLj@_N^{Id@mL^mJPiELmDHyBPaFHaDDyCB_D@kCByCAyA?w@GwBIgCEcA_@uF[qDGs@OsCK}AQoC]oEIeAYaCUaBMm@WoAk@{BYmAEQSiAY_BE[SyAQkAM}@WeB_@uCWeCYsCUoBKo@_AgIACCW_AqIcA}Jw@oIC[k@qGIiBQaB{@wII{@s@{ISwBKkBM_DIuAWaEGu@ImBAK?K?CAS?IKwBIkBEu@Cg@KwBKmB?UAQAOA[I{ACi@KwBYwGAQSeDKeBq@cKO}BIy@Ii@Mk@Sw@Us@Yq@g@aAo@aAa@e@IISSQQi@c@aAs@y@i@uHoEiAq@}B_BgD}BwRkMwAkAaA_Ay@{@i@q@]i@s@_A{AuBcDsEKOwAmBMOACKMCCeA{AW_@U]o@}@cAwAeEaGCCGC]g@yBmDEE{EoGo@w@We@We@]w@Si@Qo@Ma@Q}@Mg@Gi@Ku@Gi@EYAMIk@Iu@O{AKeAQyACUGg@E]WuBa@kFk@oF[eDKkAGgACeAAQA{B@w@DcADo@J{@j@cE`@mCJcAJyABUB[D]TyBXoBL}@PqAJ{@P{ARcBJs@LiATuAJs@Hm@XqBNoANkAhAsIzA_Lz@qGLgAVmBJgAL_AP}AJaA@Kj@kEf@uDRyANmAD[J{@BSFe@BSFw@Fk@Da@Ba@De@Fy@BO@WBg@Dq@HiBDkABo@B{@@MNwBD}@@WP}EBe@B}AHcBFkBDgAHqBDsABk@Bm@LuCL}CHaC?CDkA?YFeBDgALkCDw@@YFcBFoANwBP_BJ}@BSHo@R{AVmB@KZuBN_ABUDQHe@RoATaBb@uCVeBD[RqABOh@mDXyB\\wBRmARqADYN_ARyAXkBVcBBQXsBXoBV_BBMRmAVeBZyBVaBV}ANcAD]Ju@rE_Zx@wFZoBZkBZyBPoAFa@Fc@NgAdAoG@Ez@cGn@kEBMLaAXkBV}A\\cCRsAHo@PoAJo@TmAFY@KN}@Fe@Hg@PkAf@cCTcA`@_B^mAV{@f@yAVs@t@sBjB}Ep@mBr@mBl@cBr@cBzAcEPe@b@kAj@}Aj@}A|@}BXs@f@uAn@kBl@}Af@qA`@eAb@mA\\aAn@aBb@iA~@kCrDkJfAyC\\{@hAyCdAqCbAsC|@_CbBsEZ{@`CmG?AN_@~@cC\\aAhDaJfCaHp@mBlA}Cn@eB~DoKd@qAx@yBd@qAhAgDN_@zBiGv@_CFQt@qBx@yBr@iBfAuCJYrBoFlAcDfAwCZ_A`ByEVw@b@oAJWl@cBHUp@cBhA{CnAkDZu@`AmCpAeD`AmCr@kBn@eBFKhAyCh@{Az@wBd@qArBmFnCgHdAmCz@_Cx@wB`@mAfAaD|BaGtE}LbDkIhC}Gp@gBlBeFtCyHl@aBp@kBr@kBvByFbAmCfAqCtBwF`@gANc@tAqDnI}Tn@_Bv@gBr@iBlDyIb@kAPc@r@kBNa@Na@p@iBNa@bAqCHUvByFtBmFt@oBhAuCfKiX|CyIr@qBdAoChDcJbAoCNc@Nc@`@eA?A`@gAlBiFd@kAjEiLTq@dAqClAuCp@aBL[nAaDbCuGbG_PNe@dEaLZy@bDoIzA}D|AaEtAqDjBaFfCsG~DeK`BmEzB_GXs@z@{B@C~AcEjAyCn@aBr@qBpAgDj@wA~BkGz@yB`AeCvAsDb@gAZy@v@oBdAsCVs@d@mAd@oAp@aBtGcQp@iBPc@r@kBbAkCRg@Ri@b@iAx@qB^_AX{@Vu@dAwC@C~BeG\\}@~B}Fp@cBfB_Fx@yBxA}DnAaDTk@r@iBXs@nBqEjAmC~AgD`AwB~BsERa@fBeDVc@xB_E~@aB@Cf@{@h@aAT]R_@j@_A~@_BHOpDuGjAoB`AeBdAiB|HaNtA{Bh@u@n@cA`DoFpC_FP[rIaOjIsN~AoCrE_IhBaDbBsCDKp@iApByDj@cAh@qAb@kAf@sAZeADMb@}Av@kCxAiFL_@lAiExAeFNm@fB_GvA_FpAsEz@}CjAaEdAoDnCoJfAwDd@{ADSFSRs@pCsJdAuDjA_EXaAfB_G|@}CnAaEj@oBbCcILa@BKJ_@h@kB^}AHc@Nw@PsAF{@Di@Bi@BiABgA?yBCeCC_CAUC}AGyAI}AMyAQ_BOgAOyAKmAIcAAICe@AMImAE{AEwACwAAwAAkB@cABgAJ{AHkAHy@Hq@`@}BDUDSh@sBLa@Vy@`AqC^eAfAyCDMdA}CRg@`@kAl@cBL[\\_ANe@Vw@?A~@eDfAoDb@oA^_Al@sAZq@@CTe@hA}B~@gBj@mAr@yAVg@r@uAN[|@iBx@_Bj@kAtAmCP_@t@{Ab@w@n@gAn@aA~@uAbDgE`AiABEVYr@y@r@cA\\k@d@q@f@w@P[v@qAbAiB?AfA}B~@sBn@yAz@kBdAiCrAcDdBqEd@sAb@kAHUt@sBPc@Pc@To@r@oBbDuIN]hA}CZw@FOj@oApAsCr@_Bh@kAb@{@^w@`@u@Zm@b@s@^o@~@uA`A{An@cArAsBBCb@q@`@m@j@u@r@}@V]\\e@bAoAJMdAqAh@y@t@mAFMnAcCt@{Al@sA|@mBXs@\\aAZkARmA@ITaBHeAVwCJmALkAFo@PsAf@oEZkCVgBRoBH{@He@F]\\aD`@iDpBmRhAsKd@oDNeA|@oIZqCT_CLgA@In@wEl@{Dp@aENoALsAx@wHFe@@MRgBNkADu@Fs@BeABmA?iCQsHWiJGaDGsB?OAMGeC?QAQYyKG{BMyGCg@Ag@CoACo@?GAg@GqCMqFOaFEkBMuEEmBSkIS{HQyHSgHGaDMiFMwFMmFGcCGiES{I]oMAg@Cg@GoCCaAQ_HIuDI_DMuF_@mKUqGAk@KqFCu@EiBAg@Ag@Ag@E}B?CAECyC?g@?qB?oE?AAyCBmI@uBD{EB}E?IFcS@wC@oDFoR@oCDuDB{G@aEFeS?oADiN@sDBgE?gE@kEAeEH_XBkH?qA?QBiE@eEF{QByR?oBD{FBkEH_P@}@?aB@wD?a@FuJBiPRcM@g@BqADwBVyKTiJJgEPuH@a@?_@\\_R^_ODeD@yABkABwARsGJ{CFeB@_B@cBDuADsBB_B@i@NcGZ_PBcBJqE@WLcJRqI?YNuGJwE@o@NqGJ}ENiHLeGHcFJ_MHeDh@wVFoDDiBHuC?c@@A?e@@q@BgA?C@g@FwB?G@q@DwADiB?_A?EF_DBqA@oAPgELmDNwHD_Bn@_ZPyINyGn@yZ@q@NiHHiGBuBVmJFyDHeDJeDTgFPuDDq@X_GXqFVqFh@aKLaDpCek@p@sO`@kHNcEFqAFy@BWFk@`@cDb@oCj@_J@GZeENcBNoCJoC@YB}@@cAJkGDwBDaDJsGHoFDuD@{D?mDCqBEoA?AGmAa@uGUcDKoACo@Ca@C_AA_@?_@?W?W@q@?U@kAHcIHcIFqE@qADwDFgFDsBBsBj@}h@LyKD{CH_DFaDHcDH}CH_DP_IP{HBmBP}FRkJPoH@w@FsDHqDHwCFsC@y@FyAXeHJqBP_D@Qb@eHVeEHcB?ADw@@}@Bg@@g@@g@@g@@g@@]?IBg@Bg@@g@Bc@?CBg@Be@Bg@Bg@Bg@@_@@GBg@@[@KBg@Ba@@EBi@Bg@Dg@Bg@BY?MDg@Bg@Bg@Dg@Bg@Bg@B_@Dg@Bg@Dg@Bg@V_Db@uGb@wGX}D^_H`@cGLqA@O?AFe@De@?ADe@@ADe@?AFc@?AFe@?AFc@?AFe@?AFc@@CBQD]?A@GDg@Fe@Fg@Dg@BW@ODg@@IB]?EBa@LwBLsBP_DHuA\\kGV{FBa@Dg@^cHTcERcDFoABg@Dg@@O@WBg@Bg@Bg@@OBWBg@@QF}@N_DFoAN}BTaEBg@Dg@Bg@Bg@Bg@Bg@Dg@Ba@?CTsDR}DPkDBmA@i@@g@DsB?g@?g@?eB?QA{A?]Ai@?g@Ag@?g@?g@Ag@?g@?A?}@GgOAg@?i@Ag@Ag@?g@Ag@?g@Ai@?g@Ag@Ag@?g@?E?a@Ai@?g@?g@Ag@?g@?g@Ai@?g@?g@Ag@?g@Ag@?i@?g@?g@Ag@?e@?g@Ag@?g@Ag@?i@A_@?G?g@Ag@?g@Ag@?_@?G?C?g@Ag@?g@?i@Ag@?[?KAg@?g@?QAU?g@?i@Ag@?g@A]?I?Q?U?g@?KA[?i@?a@?E?g@@g@?g@?g@?g@?E?c@@g@?g@?g@?g@@S?S?g@@i@@g@?g@@e@t@mZBg@@i@Bg@@g@Bg@?U@QBi@@g@@g@Bg@@i@@E@a@@g@@g@@g@@g@@I@]@g@@g@@g@Bg@@g@@g@@g@@W@O@g@@g@Bg@@g@@S?SBg@@g@@g@@g@Bg@@g@@g@Bi@?SPmEBg@@g@FaBJmC@g@Bg@HyBBs@?K@[L_DLyDTiGJuCFqBFkAFiA?CDc@De@?AFg@BUBOF_@@GDU\\mB\\eBHa@DOrCyMp@yC`CuK`A}ELmAJ_AFaABg@D{A@Y@QByBFeCBwAFcCB}BJ{DFgCJkCDoB@EBeF@[?[?e@@s@?{@?g@@g@?qA?m@@qFBaG?U@uI@uGFuGDwBDaBJoEp@}SLiEBy@DwAJoCFaCDgA?GDoA@i@Bi@DoADoA`@qKLcD\\oKH{BNkFFkBFyD@u@?g@DwCByA@g@B}@DeBDwB@e@RwEf@oQ?MVoKT_Fn@wOJ_DJmCJ{CHeB@i@HyBBk@?E@g@LgD?ELkDLwDPmEJiDHcDJiDHgBR}F@]XaHDeAVwGXoHPyDFoAXcFd@cH^eFB]b@{FL{AN}ARoCXkCPwAFy@T_CFk@^uDLiAR{B@MN_CDm@JyARyEDaCH}IH}FFoF@qB@eABeCBaCDwC?iBDiDDsBB_CDoF?CJsE@_CFsED_CH{GRoPJoJHiF@{A@gBCqEAeAAwB?s@?gA?G@wA?c@Ac@?g@Ag@?_@?G?g@?g@Ag@?O?Y?g@?g@?g@AS?S?g@?g@?IAaB?M?cCAy@?c@EyGCsCUyIE_BCsBIuGEmBC_CIoBG{BOaDM}BIkBGiBGwA?KGkAMaBE]CSKw@Ik@Kk@ScASgAOs@i@_DOs@gA_Gq@eDa@qBa@qBUmAUkAUkAGYGWSiAACUkAESs@{D_@gBa@uBw@_ES}@Mo@{@cEw@_EYqAGa@UiAQw@aAkFScA[wAGWa@eBMe@_@{AYkAQw@m@uCOu@YsA]iB]sBY{AKi@S}@Ok@s@eDk@oCk@aCi@kCACMm@Iu@Ea@ASA[?a@?S@{@Be@BWBUD[DU?EDSNk@BINg@j@_BxD{KtB_GJYJ[^gAVm@Rg@\\s@b@u@h@{@\\i@^c@lBcCfB}Bf@q@b@u@j@cA`@w@Te@JUZk@Tk@b@kAFO`@uAb@{AnA_FbBqGFWLc@`@aBRs@Jg@?ALe@`@}ALg@Le@hAcE@EXkA~CaMpAiFr@aD\\cBbBsHh@oBH_@?AFUZuAHe@RsAd@gCRoAPuAPoALoATuBTuBTuB@KD[PcBTuB?CZyCBe@Bg@Bk@@i@@k@?u@Au@EwAQqB?EIe@Ig@O{@Ie@Ic@i@oBYiAGQMk@CMEQQy@q@mCI[I]s@kCs@mCGWUy@c@uBmAoFk@cCqCyLy@}Cg@uBg@sBu@eD[oAUgAUiAKo@MeAKeAMkBGkBAs@GuCA[C]E}BIeEOaAIi@I]IYWu@_@_Ao@oA_BsCIO_BiD_@{@m@yA_BsEc@mAaAaCi@sAuCsHu@wBqAmD{BaFeCiH_AmCQo@y@qCUw@GSMc@_@iA]gAyAwEeAgD}@mDo@uCK_@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.8738579,
+                        "lng" : 81.01448590000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.9 km",
+                        "value" : 904
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 83
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.7706472,
+                        "lng" : 82.18771509999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eService Rd\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : 
+                     {
+                        "points" : "kokbDwpqtNQQKU?AWaAGUGSOq@WmAQq@Gg@QkAIo@MkAIuAEoAAUEyBAq@?O@uB@w@HiBF{B\\sFLoCBg@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.7699768,
+                        "lng" : 82.17883909999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.5 km",
+                        "value" : 1542
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 226
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.7834469,
+                        "lng" : 82.1908414
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAyodhya Dham Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eTedhi Bazar Rd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "qskbDghstNK?C?K?YAq@?k@AWAc@CQAWEy@MKAKCu@Mw@OYEeAUOC]Ig@GMAMAE?G?K?YFWFI@E@E?G?GAICGCKEMKw@g@}@o@g@O_@I_@GC?iBYSDgBYcBUIAm@M}@SA?i@Kw@S_AUSESA[CoA[c@KMICECIScAG_@KWEMIKKEm@EkBK{@CQ?G@EBGDMPQRKLIFa@RKBOBC?QAmAQgDe@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.7706472,
+                        "lng" : 82.18771509999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 571
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 105
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.7827346,
+                        "lng" : 82.1851662
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "qcnbDw{stN@tA@f@DfA?JN~C^hGBl@^~Gp@bD"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.7834469,
+                        "lng" : 82.1908414
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "31 m",
+                        "value" : 31
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.782972,
+                        "lng" : 82.1850111
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eRanopali Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "a_nbDixrtN[RSJ"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.7827346,
+                        "lng" : 82.1851662
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.8 km",
+                        "value" : 1805
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 304
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 26.7921663,
+                        "lng" : 82.19979049999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street onto \u003cb\u003eAyodhya - Faizabad Rd\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eChowk Ayodhya Rd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "q`nbDiwrtNO@i@mBGWOa@Qe@ACQ_@KSOWKOQSY]]_@e@i@WWg@q@{AeC[g@a@s@i@eAIMoBqD[u@Yi@{@aByAmCU_@Yg@A?EKEKAC?A?C?Au@gAq@_AqAgBUYg@u@CGyAgB_@c@]e@CGGIGKc@y@KUWs@Oc@s@{BKYcA_Dg@_Bc@qAK]EOy@_BIQy@cBYc@SYGK"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 26.782972,
+                        "lng" : 82.1850111
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ynzbDix`mN[EXSd@@Te@JM\\_@rB{CbCiCvEyGfGsJdAkBFUa@kE{EcTuAsDgCqEiBwBoNgKaHiIgDeFaC_G}Ay@MyAkCkFwGcKcHwK}AeBeADmBKg@c@iA_H_CePgAyRqDkXkAkHeBiM_CqPs@oDqF_N}B_E{EsEqCyAwEkAgJSwJ?}U?kBTw@x@g@?Oq@VyABcDQcNPk@IuRuAoz@}@_g@iBkf@q@iHwDkOuBcGcHwNuQif@iLyZmOw`@iGcRaSer@cIki@qIwl@sNq`A_Iek@cLow@cEgYcFcb@mJ{{@eCsWT}LvBsf@nDkiAdE}cAhA_Zd@}TBwLw@yPsC__@uDeRcDuWcHcp@yEaj@}B{d@k@_MqC{c@qAiEcCsDqC}BwPkK_XiQyCkCuDwEcKmNyLyPyJkN}B{DeAyDi@qDmA{KcDq]EkGbAsJvBeR`C_R|Lk`AxC{WhBad@lBsg@p@kKl@}ElBmMtI_l@vOqdArK{s@~AgKxA{H`CcI|Mm^|HaT|]s_Ad_AmgCriAszCpOua@dXkr@pf@wqAduA}qD~w@utBxP{c@hPq`@pO}YbLaSbZgg@di@w~@tEsIpCwH`K_^|`@ouAbMab@bBeH^yDAoTgBeTa@wK@oIh@sGvA{GfCsHbHyRfBeGxDsKtHqOdKqSbEwG`GqH`JkNrNy\\vFqOrM}[nH}MnJkNrHiKpFaLfBoGlBgRhDuYbKc_AvFcc@l@gFT}FcAaf@{B{~@uEcpBqCegACs^^ubAn@ibCd@}tAd@ew@dEamBlCuuA|Ak}@lAyk@jAwg@hDaaBl@g\\|@iVlIseB`A{RpAwJzBi_@v@_n@IqJkAwQKsHrCo~B|DeaBzB{e@p@eOxGcdArBcR`HwoAhCif@@yV_@is@U_a@AaNdAyj@hAoa@bA_\\tBoi@zA_JtEeT|EaWd@iQv@m`@\\a|@nDcjAhCsaArEauAlBok@fC{l@xDyf@zBgUt@aN`@m]\\_^n@wh@j@ef@EwNAsJAqFCsHg@wa@WwRo@kOy@yO{Kml@_Lek@qLkk@_GsXc@oF^{EjKsZvAyDhCoE|GwIfCwE`ByD|CaLhEsPtKmb@lGwX~C}TvBkSFsKiAkIsLkf@oLcg@{@eG_@aLU}Jm@cD_KiToFwNyK{X}IsXuIsYiBgIs@}GOqGdAoYoEIcG_AeEo@cBPiFkCeL{AeHuAeCw@k@eCOYy@KaEMqB|AsBOgDe@@tAFnBr@bN^~Gp@bDo@^qAeDq@}AkEmFiQ{[kMyQcGuQeEmI"
+         },
+         "summary" : "NH 27",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
