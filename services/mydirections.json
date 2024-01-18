@@ -1,3 +1,7 @@
+https://maps.googleapis.com/maps/api/directions/json?origin=Lucknow&avoid=tolls|highways|&destination=Ayodhya&waypoints=Bundelkhand+University+Jhansi&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+
+
+
 {
    "geocoded_waypoints" : 
    [
