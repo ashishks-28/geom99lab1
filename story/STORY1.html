@@ -21,7 +21,7 @@
   <div id="map"></div>
 
   <script>
-    // External JavaScript
+    // JavaScript
     function initMap() {
       var mapOptions = {
         zoom: 5,
@@ -30,8 +30,8 @@
 
       var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-      // Coordinates of the 12 Jyotirlingas
-      var jyotirlingaLocations = [
+      // Coordinates of the temples
+      var temples = [
         { name: 'Kashi Vishwanath', location: { lat: 25.3089, lng: 83.0100 } },
         { name: 'Somnath', location: { lat: 20.8840, lng: 70.4056 } },
         { name: 'Mahakaleshwar', location: { lat: 23.1905, lng: 75.7774 } },
@@ -41,12 +41,12 @@
         { name: 'Pitambara Mata Mandir', location: { lat: 25.664752, lng: 78.462186} }
       ];
 
-      // Add markers for each Jyotirlinga
-      for (var i = 0; i < jyotirlingaLocations.length; i++) {
+      // Adds markers for each Temple
+      for (var i = 0; i < temples.length; i++) {
         var marker = new google.maps.Marker({
-          position: jyotirlingaLocations[i].location,
+          position: temples[i].location,
           map: map,
-          title: jyotirlingaLocations[i].name
+          title: temples[i].name
         });
       }
     }
