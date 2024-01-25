@@ -4,7 +4,7 @@
                then modify the lat and lng and zoom to point to a place you know  -->
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Temples I visited in India</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -29,7 +29,7 @@
     "marker",
   );
   const map = new Map(document.getElementById("map"), {
-    zoom: 8,
+    zoom: 5,
     center: { lat: 22.9734, lng: 78.6569 },
     mapId: "4504f8b37365c3d0",
   });
@@ -56,6 +56,14 @@
     {
       position: { lat: 24.335723, lng:72.848168 },
       title: "Ambaji Mata Mandir",
+    },
+    {
+      position: { lat: 25.664752, lng: 78.462186 },
+      title: "Pitambara Mata Mandir",
+    },
+     {
+      position: { lat:22.2456782, lng: 76.151108 },
+      title: "Omkareshwar Jyotirlinga",
     },
   ];
   // Create an info window to share between markers.
