@@ -2,7 +2,7 @@
 <!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
 <html>
 <head>
-<title>Temples I visited in India</title>
+<title>MY FIRST RELIGIOUS TRIP</title>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <style>
     #map {
@@ -15,24 +15,25 @@
         padding: 0;
     }
     h1{ color:Red;
-        font-size:32px;
+        font-size:38px;
         text-align:center;
         Font-family:Sans Serif;
             }
     h2{
         color:Blue;
+		font-size:32px;
         text-align:left;
         font-size:Medium;
         Font-family:Sans Serif;
     }
     p{
-        margin:auto;
         color:Black;
         Font-family:Sans Serif;
-        Width:70%;
+        Width:60%;
+		letter-spacing:10px;
     }
 </style>
-<script>
+<script>   //Source -https://github.com/googlemaps/js-samples/blob/main/samples/advanced-markers-accessibility/index.ts 
     async function initMap() {
         // Request needed libraries.
         const { Map, InfoWindow } = await google.maps.importLibrary("maps");
@@ -48,36 +49,36 @@
         // Lat long of the Temples
         const tourStops = [
             {
-                position: { lat: 26.913741, lng: 80.937875 },
-                title: "Lucknow, Uttar Pradesh, India ",
+                position: { lat: 26.79586, lng: 82.19447 },
+                title: "Shri Ram Janmabhumi Mandir, Ayodhya, Uttar Pradesh, India.--Shri Ram, an incarnation of Vishnu, is a Hindu deity. According to the ancient Indian epic, Ramayana, Shri Ram was born in Ayodhya.  ",
             },
             {
                 position: { lat: 25.3089, lng: 83.0100 },
-                title: "Kashi Vishwanath Jyotirlinga- Varanasi, India. ",
+                title: "Kashi Vishwanath Jyotirlinga, Varanasi,Uttar Pradesh, India.-- Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwar.",
             },
             {
                 position: { lat: 25.664752, lng: 78.462186 },
-                title: "Pitambara Mata Mandir- Datia, Madhya Pradesh, India.",
+                title: "Pitambara Mata Mandir, Datia, Madhya Pradesh, India.--“Peetambra Peeth” is located near the city. Peetambra Peeth is the famous “Sakti-Peeth” of the country. Vankhandeshwar Temple at Peetambra-Peeth is one of the Mahabharat-Kaleen temples of Shiva.",
             },
             {
                 position: { lat: 23.1905, lng: 75.7774 },
-                title: "Mahakaleshwar Jyotirlinga- Ujjain, Madhya Pradesh, India.",
+                title: "Mahakaleshwar Jyotirlinga, Ujjain, Madhya Pradesh, India.--one of the twelve Jyotirlingas, shrines which are said to be the most sacred abodes of Shiva.  It is located in the ancient city of Ujjain in the state of Madhya Pradesh, India. The temple is situated on the side of the holy river Shipra.",
             },
             {
                 position: { lat: 22.2456782, lng: 76.151108 },
-                title: "Omkareshwar Jyotirlinga- Omkareshwar, Madhya Pradesh, India.",
+                title: "Omkareshwar Jyotirlinga- Omkareshwar, Madhya Pradesh, India.-- It is one of the 12 revered Jyotirlinga shrines of Shiva. It is on an island called Mandhata, near Khandwa city in the Narmada river at Khandwa district.",
             },
             {
                 position: { lat: 20.8840, lng: 70.4056 },
-                title: "Somnath Jyotirlinga- Gujarat, India.",
+                title: "Somnath Jyotirlinga, Somnath, Gujarat, India.-- It is one of the most sacred pilgrimage sites for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. The Somnath temple is located along the coastline in Prabhas Patan, Veraval, Saurashtra region of Gujarat.",
             },
             {
                 position: { lat: 22.335897, lng: 69.087054 },
-                title: "Nageshwar Jyotirlinga- Gujarat, India.",
+                title: "Nageshwar Jyotirlinga, Porbandar, Gujarat, India.-- Nageshwar Jyotirlinga is one of the 12 jyotirlinga shrines mentioned in the Shiva Purana and the Dvādaśa Jyotirliṅga Stotram, says one of the jyotirlinga namely Nagesh is situated in Daruka-Vana. The location is disputed: Nageshvara is also believed to in Dwarka, Gujarat.",
             },
             {
                 position: { lat: 24.335723, lng: 72.848168 },
-                title: "Ambaji Mata Mandir- Gujarat, India.",
+                title: "Ambaji Mata Mandir, Banaskantha, Gujarat, India.-- This is the principal shrine of a goddess who has been worshiped since the pre-vedic period. She is often referred to as Arasuri Amba, named for the location of the temple in the Arasur hills, near the source of the Saraswati river at the south-western end of the Aravali mountain range. Ambaji mata temple is one of the 51 Shakti Peethas. it is a major Shakti Peeth of India.",
             },
         ];
  
@@ -108,7 +109,7 @@
         // Create a polyline to connect the markers.
 
        const tourPathCoordinates = [
-    { lat:  26.913741, lng: 80.937875 },
+    { lat:  26.79586, lng: 82.19447 },
     { lat:  25.3089, lng: 83.0100 },
     { lat: 25.664752, lng:  78.462186 },
     { lat: 23.1905, lng: 75.7774 },
@@ -116,14 +117,13 @@
     { lat: 20.8840, lng: 70.4056 }, 
     { lat: 22.335897, lng: 69.087054 }, 
     { lat: 24.335723, lng: 72.848168 }, 
-    { lat:  26.913741, lng: 80.937875 },
   ];
       const tourPath = new google.maps.Polyline({
        path: tourPathCoordinates,
        geodesic: true,
-       strokeColor: "#FFFF00",
+       strokeColor: "Brown",
       strokeOpacity: 1.0,
-      strokeWeight: 2,
+      strokeWeight: 2.5,
   });
  
         // Set the polyline on the map.
@@ -134,16 +134,17 @@
 </script>
 </head>
 <body>
-<h1>My FIRST RELIGIOUS TRIP</h1>
-<h2><ol>Kashi Vishwanath Jyotirlinga- Varanasi, India</ol></h2>
-<h2>Pitambara Mata Mandir- Datia, Madhya Pradesh, India</h2>
-<h2>Mahakaleshwar Jyotirlinga- Ujjain, Madhya Pradesh, India.</h2>
-<h2>Omkareshwar Jyotirlinga-Omkareshwar, Madhya Pradesh, India.</h2>
-<h2>Somnath Jyotirlinga- Gujarat, India.</h2>
-<h2>Nageshwar Jyotirlinga- Gujarat, India.</h2>
-<h2>Ambaji Mata Mandir- Gujarat, India.</h2>
+<h1>MY FIRST RELIGIOUS TRIP</h1>
+<h2><ol>1. Shri Ram Janmabhumi Mandir- Ayodhya, Uttar Pradesh, India.</ol></h2>
+<h2><ol>2. Kashi Vishwanath Jyotirlinga- Varanasi, Uttar Pradesh, India.</ol></h2>
+<h2><ol>3. Pitambara Mata Mandir- Datia, Madhya Pradesh, India.</ol></h2>
+<h2><ol>4. Mahakaleshwar Jyotirlinga- Ujjain, Madhya Pradesh, India.</ol></h2>
+<h2><ol>5. Omkareshwar Jyotirlinga-Omkareshwar, Madhya Pradesh, India.</ol></h2>
+<h2><ol>6. Somnath Jyotirlinga- Somnath, Gujarat, India.</h2>
+<h2><ol>7. Nageshwar Jyotirlinga- Porbandar, Gujarat, India.</h2>
+<h2><ol>8. Ambaji Mata Mandir- Banaskantha, Gujarat, India.</h2>
     <div id="map"></div>
 <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap&v=weekly" async></script>
 </body>
 </html>
