@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
-<!-- STUDENTS: Modify this file to provided the Google API key to get it working, 
-               then modify the lat and lng and zoom to point to a place you know  -->
 <html>
   <head>
     <title>Temples I visited in India</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
         #map {
           height: 100%;
         }
-
-        /* Optional: Makes the sample page fill the window. */
         html,
         body {
           height: 100%;
@@ -32,10 +26,8 @@
     zoom: 5,
     center: { lat: 22.9734, lng: 78.6569 },
     mapId: "4504f8b37365c3d0",
-  });
-  // Set LatLng and title text for the markers. The first marker (Boynton Pass)
-  // receives the initial focus when tab is pressed. Use arrow keys to
-  // move between markers; press tab again to cycle through the map controls.
+  }); 
+        // location of the temples
   const tourStops = [
     {
       position: { lat: 25.3089, lng:83.0100 },
@@ -45,7 +37,6 @@
       position: { lat: 25.664752, lng: 78.462186 },
       title: "Pitambara Mata Mandir",
     },
-    
      {
       position: { lat: 23.1905, lng:75.7774 },
       title: "Mahakaleshwar Jyotirlinga",
@@ -70,7 +61,7 @@
   // Create an info window to share between markers.
   const infoWindow = new InfoWindow();
 
-  // Create the markers.
+  // Created the markers.
   tourStops.forEach(({ position, title }, i) => {
     const pin = new PinElement({
       glyph: `${i + 1}`,
@@ -81,8 +72,6 @@
       title: `${i + 1}. ${title}`,
       content: pin.element,
     });
-
-    // Add a click listener for each marker, and set up the info window.
     marker.addListener("click", ({ domEvent, latLng }) => {
       const { target } = domEvent;
 
@@ -96,12 +85,10 @@
 initMap();
     </script>
   </head>
-
   <body>
     <div id="map"></div>
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
   </body>
