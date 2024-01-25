@@ -89,7 +89,7 @@
         });
  
         // Create a polyline to connect the markers.
-       const tourStops = [
+       const tourPathCoordinates = [
     { lat:  26.913741, lng: 80.937875 },
     { lat:  25.3089, lng: 83.0100 },
     { lat: 25.664752, lng:  78.462186 },
@@ -97,10 +97,10 @@
     { lat: 22.2456782, lng: 76.151108 }
     { lat: 20.8840, lng: 70.4056 } 
     { lat: 22.335897, lng: 69.087054 } 
-    { lat: 24.335723, lng: 72.848168 }  ,
+    { lat: 24.335723, lng: 72.848168 },
   ];
       const tourPath = new google.maps.Polyline({
-       path: tourStops,
+       path: TourPathCoordinates,
        geodesic: true,
        strokeColor: "#FF0000",
       strokeOpacity: 1.0,
@@ -108,7 +108,7 @@
   });
  
         // Set the polyline on the map.
-      flightPath.setMap(map);
+      tourPath.setMap(map);
     }
  
     initMap();
