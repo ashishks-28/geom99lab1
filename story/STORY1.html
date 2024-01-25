@@ -1,61 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temples I visited in India</title>
-  <style>
-    /* Internal CSS styles */
-    body {
-      margin: 0;
-      padding: 0;
-    }
-    
+<title>Temples I visited in India</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<style>
     #map {
-      height: 100vh;
-      width: 100%;
+        height: 100%;
     }
-  </style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<script>
+    async function initMap() {
+        // Request needed libraries.
+        const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+            "marker",
+        );
+        const map = new Map(document.getElementById("map"), {
+            zoom: 5,
+            center: { lat: 22.9734, lng: 78.6569 },
+            mapId: "4504f8b37365c3d0",
+        });
+ 
+        // Lat long of the Temples
+        const tourStops = [
+            {
+                position: { lat: 25.3089, lng: 83.0100 },
+                title: "Kashi Vishwanath Jyotirlinga- Varanasi, India. ",
+            },
+            {
+                position: { lat: 25.664752, lng: 78.462186 },
+                title: "Pitambara Mata Mandir- Datia, Madhya Pradesh, India.",
+            },
+            {
+                position: { lat: 23.1905, lng: 75.7774 },
+                title: "Mahakaleshwar Jyotirlinga",
+            },
+            {
+                position: { lat: 22.2456782, lng: 76.151108 },
+                title: "Omkareshwar Jyotirlinga",
+            },
+            {
+                position: { lat: 20.8840, lng: 70.4056 },
+                title: "Somnath Jyotirlinga",
+            },
+            {
+                position: { lat: 22.335897, lng: 69.087054 },
+                title: "Nageshwar Jyotirlinga",
+            },
+            {
+                position: { lat: 24.335723, lng: 72.848168 },
+                title: "Ambaji Mata Mandir",
+            },
+        ];
+ 
+        // Create an info window to share between markers.
+        const infoWindow = new InfoWindow();
+ 
+        // Created the markers.
+        const markers = tourStops.map(({ position, title }, i) => {
+            const pin = new PinElement({
+                glyph: `${i + 1}`,
+            });
+            const marker = new AdvancedMarkerElement({
+                position,
+                map,
+                title: `${i + 1}. ${title}`,
+                content: pin.element,
+            });
+            marker.addListener("click", ({ domEvent, latLng }) => {
+                const { target } = domEvent;
+ 
+                infoWindow.close();
+                infoWindow.setContent(marker.title);
+                infoWindow.open(marker.map, marker);
+            });
+            return marker;
+        });
+ 
+        // Create a polyline to connect the markers.
+        const polyline = new google.maps.Polyline({
+            path: markers.map(marker => marker.getPosition()),
+            geodesic: true,
+            strokeColor: "#FF0000",
+            strokeOpacity: 1.0,
+            strokeWeight: 2,
+        });
+ 
+        // Set the polyline on the map.
+        polyline.setMap(map);
+    }
+ 
+    initMap();
+</script>
 </head>
 <body>
-  <div id="map"></div>
-
-  <script>
-    // JavaScript
-    function initMap() {
-      var mapOptions = {
-        zoom: 5,
-        center: { lat: 22.9734, lng: 78.6569 }, // Center of India
-      };
-
-      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-      // Coordinates of the temples
-      var temples = [
-        { name: 'Kashi Vishwanath', location: { lat: 25.3089, lng: 83.0100 } },
-        { name: 'Somnath', location: { lat: 20.8840, lng: 70.4056 } },
-        { name: 'Mahakaleshwar', location: { lat: 23.1905, lng: 75.7774 } },
-        { name: 'Nageshwar Jyotirlinga', location: { lat: 22.335897, lng: 69.087054} },
-        { name: 'Ambaji Mata Mandir', location: { lat: 24.335723, lng: 72.848168} },
-        { name: 'Pitambara Mata Mandir', location: { lat: 25.664752, lng: 78.462186} },
-        { name: 'Omkareshwar Jyotirlinga', location: { lat: 22.245678, lng: 76.151108} },
-        { name: 'Rameshwaram Jyotirlinga', location: { lat: 9.288050, lng: 79.315899} }
-      ];
-
-      // Adds markers for each Temple
-      for (var i = 0; i < temples.length; i++) {
-        var marker = new google.maps.Marker({
-          position: temples[i].location,
-          map: map,
-          title: temples[i].name
-        });
-      }
-    }
-  </script>
-
-  <!-- Google Maps API script-->
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap">
-  </script>
+<div id="map"></div>
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async></script>
 </body>
 </html>
