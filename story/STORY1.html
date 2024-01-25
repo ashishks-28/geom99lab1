@@ -85,13 +85,19 @@
         });
  
         // Create a polyline to connect the markers.
-        const polyline = new google.maps.Polyline({
-            path: markers.map(marker => marker.getPosition()),
-            geodesic: true,
-            strokeColor: "#FF0000",
-            strokeOpacity: 1.0,
-            strokeWeight: 2,
-        });
+       const flightPlanCoordinates = [
+    { lat:  25.3089, lng: 83.0100 },
+    { lat: 25.664752, lng:  78.462186 },
+    { lat: 23.1905, lng: 75.7774 },
+    { lat: 22.2456782, lng: 76.151108 },
+  ];
+      const flightPath = new google.maps.Polyline({
+       path: flightPlanCoordinates,
+       geodesic: true,
+       strokeColor: "#FF0000",
+      strokeOpacity: 1.0,
+      strokeWeight: 2,
+  });
  
         // Set the polyline on the map.
         polyline.setMap(map);
