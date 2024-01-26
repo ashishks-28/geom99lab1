@@ -27,11 +27,13 @@
         Font-family:Sans Serif;
 		margin-left:5%;
     }
-</style>    // Java script to add location markers and polyline
-<script>   //Source -https://github.com/googlemaps/js-samples/blob/main/samples/advanced-markers-accessibility/index.ts 
+</style>    
+	
+<script>   //Source -https://github.com/googlemaps/js-samples/blob/main/samples/advanced-markers-accessibility/index.ts
+	// Java script to add location markers and polyline
     async function initMap() {
         // Request needed libraries.
-        const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+        const { Map, InfoWindow } = await google.maps.importLibrary("maps");                  
         const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
             "marker",
         );
