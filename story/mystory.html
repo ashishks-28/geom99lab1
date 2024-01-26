@@ -37,8 +37,8 @@
     }
 </style>    
 	
-<script>   //Source -https://github.com/googlemaps/js-samples/blob/main/samples/advanced-markers-accessibility/index.ts
-	// Java script to add location markers and polyline
+<script>   // Javascript Source -https://github.com/googlemaps/js-samples/blob/main/samples/advanced-markers-accessibility/index.ts
+	// Java script modified to add location markers and polyline
     async function initMap() {
         // Request needed libraries.
         const { Map, InfoWindow } = await google.maps.importLibrary("maps");                  
@@ -54,7 +54,7 @@
         // Lat long of the Temples
         const tourStops = [
             {
-                position: { lat: 26.79586, lng: 82.19447 },
+                position: { lat: 26.79586, lng: 82.19447 }, // Information on temples is taken from wikipidea and https://www.gujarattourism.com/ - Gujarat Tourism
                 title: "Shri Ram Janmabhumi Mandir, Ayodhya, Uttar Pradesh, India.--Shri Ram, an incarnation of Vishnu, is a Hindu deity. According to the ancient Indian epic, Ramayana, Shri Ram was born in Ayodhya.  ",
             },
             {
